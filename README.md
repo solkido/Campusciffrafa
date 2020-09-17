@@ -20,3 +20,10 @@
 ## Subir los cambios al repositorio remoto.
 	git push
 	
+# 2.6 IGNORAR ARCHIVOS (I)
+## 1 Crear en el repositorio local un fichero llamado privado.txt.
+	touch privado.txt
+    
+## 2 Crear en el repositorio local una carpeta llamada privada.
+ 	mkdir privada
+	
