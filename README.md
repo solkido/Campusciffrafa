@@ -47,3 +47,7 @@
 # 2.10 SUBIR EL TAG V0.1
 ## 1 Subir los cambios al repositorio remoto.
  	git push --tag
+
+# 2.11 CUENTA DE GITHUB
+## 1 Poner una foto en vuestro perfil de GitHub
+	![Imagen 1] https://ibb.co/nRrbKXZ
