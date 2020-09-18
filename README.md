@@ -27,3 +27,10 @@
 ## 2 Crear en el repositorio local una carpeta llamada privada.
  	mkdir privada
 	
+ # 2.7 IGNORAR ARCHIVOS (II)
+## Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git.
+	echo "privado.txt" > .gitignore
+	echo "/privada" > .gitignore
+	git add .
+    git commit -m "añadido fichero .gitignore"
+	
