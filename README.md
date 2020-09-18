@@ -51,3 +51,13 @@
 # 2.11 CUENTA DE GITHUB
 ## 1 Poner una foto en vuestro perfil de GitHub
 	![Imagen 1] (https://raw.githubusercontent.com/solkido/Campusciffrafa/master/assets/github.PNG)
+
+# 2.13 CREAR UNA TABLA
+## 1 Crear una tabla de este estilo en el fichero README.md con la información de varios de tus 
+compañeros de clase:
+
+| NOMBRE | GITHUB |
+| -- | -- |
+| David | https://github.com/dvidgb/campusciff |
+| Alejandro | https://github.com/aguerra952/campusciff |
+
