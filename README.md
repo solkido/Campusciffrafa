@@ -50,4 +50,4 @@
 
 # 2.11 CUENTA DE GITHUB
 ## 1 Poner una foto en vuestro perfil de GitHub
-	github.PNG
+	![Imagen 1] (https://raw.githubusercontent.com/solkido/Campusciffrafa/master/assets/github.PNG)
