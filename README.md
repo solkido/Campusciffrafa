@@ -1,7 +1,7 @@
 # Campusciffrafa
 
 # 2.1 REPOSITORIO CAMPUSCIFF (I)
-## Crear un repositorio en vuestro GitHub llamado campusciff.
+## 1 Crear un repositorio en vuestro GitHub llamado campusciff.
 
 # 2.2 REPOSITORIO CAMPUSCIFF (II)
 ## 1 Clonar vuestro repositio en local.
@@ -17,7 +17,7 @@
 	git commit -m "Commit inicial"
 
 # 2.5 PUSH INICIAL
-## Subir los cambios al repositorio remoto.
+## 1 Subir los cambios al repositorio remoto.
 	git push
 	
 # 2.6 IGNORAR ARCHIVOS (I)
@@ -28,9 +28,22 @@
  	mkdir privada
 	
  # 2.7 IGNORAR ARCHIVOS (II)
-## Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git.
+## 1 Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git.
 	echo "privado.txt" > .gitignore
 	echo "/privada" > .gitignore
 	git add .
     git commit -m "añadido fichero .gitignore"
 	
+# 2.8 AÑADIR FICHERO 1.TXT
+## 1 Añadir fichero 1.txt al repositorio local.
+	touch 1.txt
+	git add . -all
+	git commit -m "añadido 1.txt"
+	
+# 2.9 CREAR EL TAG V0.1
+## 1 Crear un tag v0.1.
+	git tag v0.1
+	
+# 2.10 SUBIR EL TAG V0.1
+## 1 Subir los cambios al repositorio remoto.
+ 	git push --tag
