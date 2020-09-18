@@ -50,4 +50,4 @@
 
 # 2.11 CUENTA DE GITHUB
 ## 1 Poner una foto en vuestro perfil de GitHub
-	![Imagen 1] https://ibb.co/nRrbKXZ
+	
