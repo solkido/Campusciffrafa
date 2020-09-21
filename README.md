@@ -61,3 +61,74 @@ compañeros de clase:
 | David | https://github.com/dvidgb/campusciff |
 | Alejandro | https://github.com/aguerra952/campusciff |
 
+# Avanzado
+
+
+# 2.2 CREAR UNA RAMA V0.2
+## 1 Crear una rama v0.2.
+	git branch v0.2
+## 2 Posiciona tu carpeta de trabajo en esta rama.
+	git checkout v0.2
+
+# 2.3 AÑADIR FICHERO 2.TXT
+## 1 Añadir un fichero 2.txt en la rama v0.2.
+	touch 2.txt
+	git add .
+	git commit -m "añadido 2.txt"
+    
+ # 2.4 CREAR RAMA REMOTA V0.2
+## 1 Subir los cambios al reposiorio remoto.
+	git push origin v0.2
+    
+  # 2.5 MERGE DIRECTO
+  ## 1 Posicionarse en la rama master.
+  	git checkout master
+    
+## 2 Hacer un merge de la rama v0.2 en la rama master.
+	git merge v0.2 -m "merge v0.2 sin conflictos"
+ # 2.6 MERGE CON CONFLICTO (I)
+## 1 En la rama master poner Hola en el fichero 1.txt y hacer commit.
+	git checkout master
+	echo "Hola" >> 1.txt
+	git add .
+	git commit -m "hola en 1.txt"
+
+
+# 2.7 MERGE CON CONFLICTO (II)
+## 1 Posicionarse en la rama v0.2 y poner Adios en el fichero "1.txt" y hacer commit.
+	git checkout v0.2
+	echo "Adios" >> 1.txt
+	git add .
+	git commit -m "adios en 1.txt"
+
+# 2.8 MERGE CON CONFLICTO (III)
+## 1 Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
+	git checkout master
+	git merge v0.2
+	nano 1.txt
+	git add .
+	git commit -m "arreglado merge en 1.txt"
+    
+# 2.9 LISTADO DE RAMAS
+## 1 Listar las ramas con merge y las ramas sin merge.
+	git branch --merged
+	git branch --no-merged
+
+# 2.10 ARREGLAR CONFLICTO
+ ## 1 Arreglar el conflicto anterior y hacer un commit.
+	nano 1.txt
+	git add .
+	git commit -m "arreglado merge en 1.txt"
+
+# 2.11 BORRAR RAMA
+## 1 Crear un tag v0.2
+	git tag v0.2
+    
+## 2 Borrar la rama v0.2
+	git branch -d v0.2
+    
+# 2.12 LISTADO DE CAMBIOS
+ ## 1 Listar los distintos commits con sus ramas y sus tags.
+	git config --global alias.list 'log --oneline --decorate --graph --all'
+	git list
+
