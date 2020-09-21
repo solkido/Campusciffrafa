@@ -135,3 +135,15 @@ compañeros de clase:
 # 2.13 CREAR UNA ORGANIZACIÓN
 ## 1 Crear una organización llamada Campusciff-tunombredeusuariodedgithub
 ![organización](https://user-images.githubusercontent.com/39245090/93827281-3f2e8380-fc69-11ea-8535-8a2a45105cfc.PNG)
+
+# 2.14 CREAR EQUIPOS
+## 1 Crear 2 equipos en la organizacion campusciffrafa-tunombredeusuariodegithub, uno llamado administradores  con mas permisos y otro llamado colaboradores con menos permiso.
+![equipos](https://user-images.githubusercontent.com/39245090/93828555-e7454c00-fc6b-11ea-8de3-ed15a06dbf86.PNG)
+
+## 2 Meter a github.com/asanzdiego y a 2 de vuestros compañeros de clase en el equipo administradores.
+![administradores](https://user-images.githubusercontent.com/39245090/93828663-18be1780-fc6c-11ea-8965-be32b31f10cd.PNG)
+
+## 3 Meter a github.com/asanzdiego y a otros 2 de vuestros compañeros de clase en el equipo colaboradores.
+![colaboradores](https://user-images.githubusercontent.com/39245090/93828591-fcba7600-fc6b-11ea-917e-35d93cbf4178.PNG)
+
+
