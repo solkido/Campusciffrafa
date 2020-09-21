@@ -134,4 +134,4 @@ compañeros de clase:
 
 # 2.13 CREAR UNA ORGANIZACIÓN
 ## 1 Crear una organización llamada Campusciff-tunombredeusuariodedgithub
-	![organización](https://user-images.githubusercontent.com/39245090/93826969-a39d1300-fc68-11ea-8bd4-fac9c5d07f4c.PNG)
+![organización](https://user-images.githubusercontent.com/39245090/93827281-3f2e8380-fc69-11ea-8535-8a2a45105cfc.PNG)
